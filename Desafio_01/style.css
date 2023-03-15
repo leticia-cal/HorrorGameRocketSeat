@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  background-image: url(../assets/images/background-image-desafio-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  padding-top: 200px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 86px;
+  color: #151718;
+  padding-bottom: 4px;
+}
+
+span {
+  color: #db2777;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(44, 46, 47, 0.9);
+  padding-bottom: 72px;
+}
+
+a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #151718;
+  padding: 16px;
+  text-align: center;
+}
+
+a:hover {
+  color: #db2777;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background: #db2777;
+  border-radius: 80px;
+  padding: 16px 32px;
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background: #ff0f7b;
+}
